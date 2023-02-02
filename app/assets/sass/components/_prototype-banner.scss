@@ -1,0 +1,21 @@
+.prototype-banner {
+  margin: 5px 0;
+  border-bottom: 1px solid var(--nrw-dark-green);
+}
+
+.prototype-tag {
+  --tag-background: var(--nrw-dark-green);
+  --tag-colour: #fff;
+  display: inline-block;
+  padding: 5px 8px;
+  background: var(--tag-background);
+  color: var(--tag-colour);
+}
+
+.prototype-tag__text {
+  padding-left: 5px;
+
+  @include mq($from: tablet) {
+    padding-left: 10px;
+  }
+}
